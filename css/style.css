@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #7795ad;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 350px;
+    background: #c3c3c3;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.p_top {
+    padding: 40px 30px 0 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.txt {  
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.enviar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.botao {
+    background-color: #7795ad;
+    color: #fff;
+    border: none;
+    margin:0 0px;
+    padding: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#limpar {
+    background-color: #810000;
+    color: #000000;
+    border: none;
+    padding: 10px 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#entrar {
+    background-color: #0022ff;
+    color: #fff;
+    border: none;
+    padding: 10px 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
